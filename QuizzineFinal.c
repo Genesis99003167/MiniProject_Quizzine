@@ -149,7 +149,7 @@ Round1:
     printf("Welcome to WARM-UP round ( Round-1 )\n\n");
 	printf("[Current Affairs & General Knowledge]\n\n");
 	
-	printf("The world largest Desert is ?\n");
+	printf("Q1 : The world largest Desert is ?\n");
 	printf("1 > Thar 2 > Kalhari 3 > Sahara 4 > Sonoran\n");
 	printf("Enter Correct Option : ");
 	scanf("%d",&q1);
@@ -172,8 +172,8 @@ Round1:
     	printf("\n\t\t\t\t\t\t\t Wrong Answer");		
 	}
 
-	printf("\nThe metal whose salts are sensitive to light is ?\n");
-	printf("1 > Zinc 2 > Silver 3 > Copper 4 > Aluminum\n");
+	printf("\n Q2 : Which of the following was the place of Nirvana of the 23rd Jain Tirthankara Parshwanath?\n");
+	printf("1 > Pavapuri 2 > Silver 3 > Mount Ashtapada 4 > Samet Shikhar\n");
 	printf("Enter Correct Option : ");
 	scanf("%d",&q2);
 	if( q2 > 4){
@@ -196,8 +196,8 @@ Round1:
 	
 	
 	
-	printf("\nCountry that has the highest in Barley Production ?");
-	printf("\n1 > china 2 > Pakistan 3 > Russia 4 > france");
+	printf("\n Q3 : Country that has the highest in Barley Production ?");
+	printf("\n1 > china 2 > Pakistan 3 > Russia 4 > France");
 	printf("\nEnter Correct option : ");
 	scanf("%d",&q3);
 		if(q3 > 4)
@@ -261,7 +261,7 @@ Round1:
 	printf("[Current Affairs & General Knowledge]\n\n");
 	printf("Welcome to Challenging round ( Round-2 )\n\n");
 	
-	printf("\nFirst China War was fought between");
+	printf("\n Q4 : First China War was fought between");
 	printf("\n 1 > China and Britain 2 > China and France. 3 > China and Egypt 4 >China and Greek");
 	printf("\nEnter Correct Option : ");
 	scanf("%d",&q4);
@@ -282,9 +282,9 @@ Round1:
 		printf("\n\t\t\t\t\t\t\tWrong Answer");
 	}
 	
-	printf("\nWhat is the Capital of Pakistan");
-	printf("\n 1 > Lahore 2 > Quetta 3 > Islamabad 4 >Karachi");
-	printf("\nEnter Correct Option : ");
+	printf("\n Q5 : Who among the following won the Nobel Prize in Physics 2020?");
+	printf("\n 1 > Roger Penrose 2 > Reinhard Genzel 3 > Andrea Ghez 4 > All the above");
+	printf("\n Enter Correct Option : ");
 	scanf("%d",&q5);
 	if(q5 > 4){
 		system("cls");
@@ -305,7 +305,7 @@ Round1:
 	
 	
 	
-	printf("\nMicrosoft was founded by?");
+	printf("\n Q6 : Microsoft was founded by?");
 	printf("\n 1 > billgates 2 > jeff 3 > steve 4 > mark ");
 	printf("\nEnter Correct Option : ");
 	scanf("%d",&q6);
