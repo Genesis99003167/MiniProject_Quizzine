@@ -5,7 +5,7 @@ main.c
 INC = -Iinc
 
 
-PROJECT_NAME = quizzine.exe
+PROJECT_NAME = quizzine.o
 
 $(PROJECT_NAME): $(SRC)
 
