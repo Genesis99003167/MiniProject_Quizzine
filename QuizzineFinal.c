@@ -699,7 +699,21 @@ cgry2:
         printf("\t\t\t\t\t\t\tScore = %d",score2);
 		printf("\n\t\t\t\t\t\t\tWrong Answer");
 	}
+	printf("\nDo you to play again? If yes, Select option 1 or else selcet 5 ");
+	printf("\nEnter Option : ");
+    scanf("%d",&mopt);
+	if ( mopt==1){
+		goto MAINQ;
+	
+	}
+	else {
+		goto MAINQ;
+	}
+	printf("Game over");
+	
+
   return 0;  
-   
+	}
 }
+	
 
